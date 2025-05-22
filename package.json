@@ -1,0 +1,29 @@
+{
+  "name": "music-player",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "cap:add:android": "npx cap add android",
+    "cap:sync": "npx cap sync",
+    "cap:open:android": "npx cap open android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^5.7.0",
+    "@capacitor/core": "^5.7.0",
+    "@capacitor/status-bar": "^5.0.8",
+    "axios": "^1.6.7",
+    "element-plus": "^2.9.10",
+    "pinia": "^2.1.7",
+    "vue": "^3.4.15",
+    "vue-router": "^4.2.5"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^5.7.0",
+    "@vitejs/plugin-vue": "^5.0.3",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.5"
+  }
+}
